@@ -1,0 +1,261 @@
+body {
+    background-color: #1f1f1f;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 108, 43);
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    color: #4b4a49;
+}
+
+main {
+    margin-top: 60px;
+    color: white;
+}
+
+header,
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+#ebooks {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.ebook {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.ebook img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.center-text {
+    text-align: center;
+    color: rgb(253, 116, 36);
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+
+}
+
+.center-text + * {
+    margin-top: 50px; /* Intervalo de 20px abaixo do elemento .center-text */
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+}
+
+.centered-paragraph {
+    margin-bottom: 30px;
+    width: 800px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.white-text {
+    color: white;
+    font-size: 20px;
+}
+
+.right-content p {
+    color: white;
+    font-size: 20px;
+
+}
+
+
+
+.mySlides {
+    display: none;
+}
+
+.slideshow-container {
+    max-width: 500px;
+    width: 500px;
+
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: rgb(253, 116, 36);
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 95.20%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+
+footer {
+    background-color: #444654;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 300px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #3d3d3d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+.social-icon.whatsapp:hover {
+    color: #25D366;
+    font-size: 25px;
+}
+
+.social-icon.instagram:hover {
+    color: #E1306C;
+    font-size: 25px;
+}
+
+.social-icon.facebook:hover {
+    color: #1877F2;
+    font-size: 25px;
+}

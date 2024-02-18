@@ -1,0 +1,184 @@
+        /* Estilização do corpo */
+        body {
+            background-color: #1f1f1f;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(224, 108, 43);
+            padding: 20px 0;
+            position: fixed;
+            top: 0px;
+            z-index: 99;
+            width: 100%;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+        .menu a:hover {
+            color: #4b4a49;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            margin-top: 60px;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .image-card {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .image-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .image-card img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .image-card .image-details {
+            padding: 20px;
+        }
+
+        .image-card h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .image-card p {
+            margin: 0;
+            color: #666;
+        }
+
+        .center-text {
+            text-align: center;
+            color: rgb(253, 116, 36);
+            font-size: 25px;
+            margin-bottom: 10px;
+            margin-top: 100px;
+
+        }
+
+        .center-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .centered-paragraph {
+            margin-bottom: 30px;
+            width: 800px;
+            text-align: center;
+            font-size: 18px;
+            color: white;
+        }
+
+        footer {
+            background-color: #444654;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            margin-top: 300px;
+        }
+        
+        footer p {
+            margin: 0;
+        }
+        
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            background-color: #3d3d3d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        footer p {
+            margin: 0;
+        }
+        
+        .social-icon {
+            display: inline-block;
+            margin-right: 10px;
+            color: white;
+            font-size: 25px;
+        }
+        
+        
+        
+        
+        .social-icon.whatsapp:hover {
+            color: #25D366;
+            font-size: 25px;
+        }
+        
+        .social-icon.instagram:hover {
+            color: #E1306C;
+            font-size: 25px;
+        }
+        
+        .social-icon.facebook:hover {
+            color: #1877F2;
+            font-size: 25px;
+        }
+
+        .image-details button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 138px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
